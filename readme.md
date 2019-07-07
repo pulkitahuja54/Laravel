@@ -6,12 +6,17 @@
 
 4.Run project installation commands
 > composer install
+
 > composer dump-autoload
+
 > npm install
+
 > php artisan key:generate
 
 5.Setup Virtual host on your local machine or ec2 instance.
 
 6.Run final project setup command
+
 > php artisan migrate
+
 > php artisan config:cache
