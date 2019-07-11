@@ -25,7 +25,7 @@
     <tbody>
         @foreach($events as $event)
         <tr>
-            <td>{{$event->id}}</td>
+            <td>{{$loop->iteration}}</td>
             <td>{{$event->event_name}}</td>
             <td><a href="{{ route('events.edit',$event->id)}}" class="btn btn-primary">Edit</a></td>
             <td>
